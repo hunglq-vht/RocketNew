@@ -5,7 +5,7 @@ import EmergencyAlertBanner from '../../components/EmergencyAlertBanner';
 import SystemStatusIndicator from '../../components/SystemStatusIndicator';
 import QuickActionToolbar from '../../components/QuickActionToolbar';
 import IncidentStatsCards from './components/IncidentStatsCards';
-import IncidentFiltersComponent from './components/IncidentFilters';
+import IncidentFiltersComponent from './components/IncidentFiltersComponent';
 import IncidentTable from './components/IncidentTable';
 import IncidentDetailPanel from './components/IncidentDetailPanel';
 import CreateIncidentModal from './components/CreateIncidentModal';
