@@ -43,7 +43,7 @@ const TelemetryPanel = ({ telemetry }: TelemetryPanelProps) => {
               <Icon name="Gauge" size={18} strokeWidth={2} className="text-muted-foreground" />
               <span className="text-xs font-medium text-foreground">Altitude</span>
             </div>
-            <span className="text-sm font-bold font-mono text-foreground">{telemetry.altitude} ft</span>
+            <span className="text-sm font-bold font-mono text-foreground">{Number(telemetry.altitude).toFixed(4)} ft</span>
           </div>
 
           <div className="flex items-center justify-between p-3 bg-muted/50 rounded-lg">
